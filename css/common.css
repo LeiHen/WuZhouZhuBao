@@ -10,15 +10,64 @@ a:link,a:visited,a:hover,a:active{
 
 }
 
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+
+
+.wrap{
+    
+}
+
+.w{
+	width: 1200px;
+}
+
+.w_max{
+	width: 1400px;
+}
+
+
+.w_per100{ width: 100%; }
+.w_per90{ width: 90%; }
+.w_per618{ width: 61.8%; }
+.w_per382{ width: 38.2%; }
+
+.w_per25{width: 25%;}
+.w_per40{width: 40%;}
+.w_per60{width: 60%;}
 
 
 
+.header{
+
+}
+
+
+/* 功能区 */
+.header .func{
+
+}
 
 
 
 /*
 	布局
 */
+.g_col_2{ }
+.g_col_2 .span{ width: 50%; float: left; }
+
+.g_col_3{ }
+.g_col_3 .span{ width:33.33333333333%; float: left; }
+
+.g_col_4{ }
+.g_col_4 .span{ width: 25%; float: left; }
+
+.g_col_5{ }
+.g_col_5 .span{ width:20%; float: left; }
+
+.g_col_6{ }
+.g_col_6 .span{ width: 16.6666666666666%; float: left; }
 
 
 /*
