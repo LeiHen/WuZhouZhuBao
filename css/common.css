@@ -21,6 +21,7 @@ a:link,a:visited,a:hover,a:active{
 
 .w{
 	width: 1200px;
+	margin: 0 auto;
 }
 
 .w_max{
@@ -38,7 +39,7 @@ a:link,a:visited,a:hover,a:active{
 .w_per60{width: 60%;}
 
 
-
+/* 头部 */
 .header{
 
 }
@@ -46,8 +47,54 @@ a:link,a:visited,a:hover,a:active{
 
 /* 功能区 */
 .header .func{
+	text-align: right;
+	padding: 20px 0; 
+}
+.header .func .link{
+	display: inline-block;
+	font-size: 1.4em;
+	line-height: 2em;
+	color: #959595;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+.header .func .link .icon{
+	margin:0 4px 0 0;
+}
+.header .func .link:hover{
+	color: #363434;
+}
+
+.header .func .shopcar{
+	margin-right: 20px;
+}
+
+
+.header .logo{
+	padding: 0 0 20px 0; 
+}
+.header .logo .img{
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+
+
+
+/* footer*/
+.footer{
 
 }
+
+
+/* nav */
+.nav{
+
+}
+
 
 
 
@@ -79,6 +126,36 @@ a:link,a:visited,a:hover,a:active{
 /*
 	模块
 */
+
+/* banner */
+.m_banner{
+
+}
+.m_banner .img{
+	width: 100%;
+	display: block;
+}
+
+
+/* video */
+.m_video{
+
+}
+.m_video video{
+	width: 100%;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,7 +197,7 @@ a:link,a:visited,a:hover,a:active{
 
 	全局
 	
-	  	  主色
+	  	  主色 363434
 	 	  辅色 
     	高亮色
     	阴影色
@@ -129,8 +206,8 @@ a:link,a:visited,a:hover,a:active{
 
 	  字体颜色 
 
-	主标题颜色 
-	副标题颜色 
+	主标题颜色 4e4c4c 
+	副标题颜色 959595
 	  正文颜色 
 	
 	  过渡颜色

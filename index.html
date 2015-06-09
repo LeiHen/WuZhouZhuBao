@@ -22,7 +22,7 @@
 		
 		<title>五洲珠宝</title>
 		<!--[if lt IE 9 ]>
-            <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+            <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
         <![endif]-->
 
 		<link rel="stylesheet" href="css/base.css">
@@ -32,19 +32,21 @@
 		<link rel="stylesheet" href="css/responsive.css">
 
 	</head>
+	
 	<body>	
 		<!-- header [[ -->
 		<haeder class="header">
 		    <!-- 功能区 [[ -->
             <div class="func w">
-		        <a href="" class="link"><span class="icon"></span>cart</a>
-		        <a href="" class="link"></a>
-		        <a href="" class="link"></a>    
+		        <a href="shopcart.html" class="link shopcar"><span class="icon icon_shopping_cart"></span>cart</a>
+		        <a href="login.html" class="link">log in</a>
+		        <a href="signin.html" class="link">sign in</a>    
 		    </div>
 		    <!-- 功能区 [[ -->
 		    
 		    <!-- logo [[ -->
-		    <div class="logo">
+		    <div class="logo w">
+		        <img src="images/logo_long.png" alt="" class="img">
 		        
 		    </div>
 		    <!-- logo [[ -->
@@ -53,47 +55,59 @@
 		<!-- header ]] -->
       
         <!-- nav [[ -->
-        <nav class="nav_main">
+        <nav class="nav_main w">
              
         </nav>
         <!-- nav [[ -->
         
         <!-- banner [[ -->
-        <div class="m_banner">
-            <img src="" alt="" class="img">
+        <div class="m_banner w">
+            <img src="images/banner/index/img_001_1200x500.jpg" alt="" class="img">
         </div>
         <!-- banner ]] -->
-        
+                
         
         <!-- video [[ -->
-        <div class="m_video">
-            <video src="" class="file"></video>
+        <div class="m_video w">
+            <video loop="loop" autoplay="" class="file" controls autobuffer>
+                <source src="media/video/video1.mp4" type="video/mp4;">
+            </video>
+<!--            <div class="bgs"><img src="images/video/img_001_1200x466.jpg" alt="" class="img"></div>-->
         </div>
         <!-- video ]] -->
         
-        div.
+        
+        
+        
+        
         
       
+        </video>
+        
+        
+        <div class="nav_bottom w"></div>
+        
       
-      
-       
+        
+
+        
+        <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+        
+        
+        <!--[if lte IE 8]>
         <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+        <![endif]-->
         
         <script src="js/base.js"></script>
         <script src="js/common.js"></script>
         <script src="js/page.js"></script>
         
-		<script type="text/javascript">	
-			//初始化 统一入口
-			function init(){
-
-			}
-			init();
-		</script>
+		
 		
 		<!-- css3兼容低版本 -->
 		<!--[if lte IE 8]>
         <script type="text/javascript" src="js/hack/PIE/PIE.js"></script>
+        <script type="text/javascript" src="js/hack/video/html5media.min.js"></script>
         <script type="text/javascript" src="js/hack/css3-mediaqueries.min.js"></script>
         <script type="text/javascript">
             $(function() {
@@ -106,8 +120,24 @@
         </script>
         
         <![endif]-->
+        
         <!--[if lte IE 7]>
         <script type="text/javascript" src="js/hack/font-ie7.js"></script>  
         <![endif]-->
+        
+        
+        <script type="text/javascript">	
+			//初始化 统一入口
+			function init(){
+
+
+			}
+			init();
+		</script>
+		
+		
+        
+        
+		
 	</body>
 </html>
