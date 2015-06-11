@@ -101,10 +101,10 @@ a:link,a:visited,a:hover,a:active{
 .nav_bottom .nav_list_txtimg .list:last-child .link{ padding: 0 0 0 20px; }
 .nav_bottom .nav_list_txtimg .list .link:hover .title{ color: #363434; }
 
-.nav_bottom .nav_list_bottom{ overflow: hidden; margin:40px auto; border: 2px solid #959595; border-left:none; border-right:none; }
-.nav_bottom .nav_list_bottom .list{ }
-.nav_bottom .nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 2em; line-height: 2em; color: #959595; text-align: center; text-transform: uppercase; }
-.nav_bottom .nav_list_bottom .list .link:hover{ color: #363434; }
+.nav_list_bottom{ overflow: hidden; margin:40px auto; border: 2px solid #959595; border-left:none; border-right:none; }
+.nav_list_bottom .list{ }
+.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 2em; line-height: 2em; color: #959595; text-align: center; text-transform: uppercase; }
+.nav_list_bottom .list .link:hover{ color: #363434; }
 
 
 
@@ -174,20 +174,96 @@ a:link,a:visited,a:hover,a:active{
 
 
 /* m_itme */
-.m_itme{
+.m_itme{ overflow: hidden; }
+.m_itme .list{ position: relative; }
+.m_itme .list .img{ width: 100%; display: block; }
+.m_itme .list .title{ position: absolute; left: 0; right: 0; top: 30px; margin: 0 auto; font-size: 3em; line-height: 1em; color: #4e4c4c; text-align: center; z-index: 2; }
+.m_itme .list .frame{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; padding:20px; background: #000; background: rgba(0,0,0,.8); color: #fff; z-index: 4; opacity: 0; filter: alpha(opacity=0); }
+.m_itme .list .frame .txt{ padding:60px 0px 0 0px; }
+.m_itme .list .frame .txt p{ font-size: 1.4em; line-height: 1.8em; margin: 16px 0; }
+.m_itme .list .frame .link{ margin: 40px 0; font-size: 1.4em; line-height: 2em; color: #fff; display: block; text-transform: uppercase; }
 
+.m_itme .list:hover{ }
+.m_itme .list:hover .frame{ opacity: 1; filter: alpha(opacity=100); }
+.m_itme .list:hover .frame .title{ color: #fff; z-index: 6; }
+.m_itme .list .frame .link:hover{ text-decoration: underline; }
+
+
+
+/* m_itme_img */
+.m_itme_img{
+	overflow: hidden;
+}
+.m_itme_img .list{
+	display: block;
+	position: relative;
+	height: 100%;
+}
+.m_itme_img .list .link{
+	display: block;
+	position: relative;
+	height: 100%;
 }
 
-
-
-/* m_itme */
-.m_itme_press{
-	
-}
-.m_itme_press{
-
+.m_itme_img .list .img{
+	display: block;
+	width: 100%;
 }
 
+.m_itme_img .list .box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	background: #000;
+	background: rgba(0,0,0,.8);
+}
+
+.m_itme_img .list .box .wrappre{
+	position:relative;
+	height: 100%;
+	top: 50%;
+    left: 50%;
+    background: #ccc;
+}
+.m_itme_img .list .box .cell {
+    position: absolute;
+}
+.m_itme_img .list .box .cell .content{
+	position: relative;
+    margin-top: -50%;
+    margin-left: -50%;
+    /*padding-top: -50%;*/
+    
+    color: #fff;
+    font-size: 2em;
+    line-height: 1em;
+    height: 100%;
+    /*height: 100px;*/
+    background-color: red;
+
+    text-transform: uppercase;
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*background: red;*/
+    /*display: block;*/
+    /*position: relative;*/
+}
+/*.m_itme_img .list .box p{
+	vertical-align: middle;	
+}
+
+.m_itme_img .list:first-child .p10{
+	padding-left: 0;
+	padding-right: 0;
+}*/
 
 
 /* m_itme */
