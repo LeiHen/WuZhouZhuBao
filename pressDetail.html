@@ -30,6 +30,10 @@
 		<link rel="stylesheet" href="css/page.css">
 		<link rel="stylesheet" href="css/font.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		
+		<link rel="stylesheet" href="css/strip/strip.css">
+		
+		
 
 	</head>
 	
@@ -69,25 +73,25 @@
                       
                       <ul class="nav_sub">
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Fine Jewellery</a>
+                              <a href="jewelry.html" class="link">Fine Jewellery</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Rings</a>
+                              <a href="jewelry.html" class="link">Rings</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Necklaces</a>
+                              <a href="jewelry.html" class="link">Necklaces</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Bracelets</a>
+                              <a href="jewelry.html" class="link">Bracelets</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Earrings</a>
+                              <a href="jewelry.html" class="link">Earrings</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Other</a>
+                              <a href="jewelry.html" class="link">Other</a>
                           </li>
                           <li class="list">
-                              <a href="jewelryList.html" class="link">Men</a>
+                              <a href="jewelry.html" class="link">Men</a>
                           </li>
                       </ul>
                       
@@ -108,8 +112,21 @@
                
                
         <!-- main [[ -->
-        <div class="main w">
-            <img src="images/press/list/001/img_001_740x890.jpg" alt="">
+        <div class="main w press_detail">
+            <!-- 杂志封面 -->
+            <a id="pressIMG" class="strip cover"  href="images/press/list/001/img_001_740x890.jpg" data-strip-group="top-options" data-strip-group-options="side:'top'" title="2014年5月 第二期" alt="2014年5月 第二期">
+                <img src="images/press/list/001/img_001_740x890.jpg" alt="">
+            </a>
+            
+            <!-- 杂志图片列表 -->
+            <a href="images/press/list/001/img_002_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+            <a href="images/press/list/001/img_003_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+            <a href="images/press/list/001/img_004_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+            <a href="images/press/list/001/img_005_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+            <a href="images/press/list/001/img_006_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+            <a href="images/press/list/001/img_007_740x890.jpg" class="strip" data-strip-group="top-options"></a>
+
+            
         </div>
         <!-- main ]] -->
                 
@@ -141,8 +158,7 @@
       
         
         <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
-        
-        
+
         <!--[if lte IE 8]>
         <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
         <![endif]-->
@@ -175,10 +191,17 @@
         <![endif]-->
         
         
+        
+        <script src="js/lib/strip.min.js"></script>
+        
         <script type="text/javascript">	
 			//初始化 统一入口
 			function init(){
-
+                
+                //杂志
+                $("#pressIMG").click(function(){
+                    Strip.show();
+                 });
 
 			}
 			init();

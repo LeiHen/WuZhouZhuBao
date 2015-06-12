@@ -14,6 +14,34 @@
 
 }
 
+/* press_detail */
+.press_detail{
+	margin-bottom: 100px;
+}
+
+.press_detail .cover{
+	display: block;
+	margin: 0 auto;
+	width: 740px;
+}
+.press_detail .cover img{
+	display: block;
+	max-width: 100%;
+}
+
+
+
+/* jewelry */
+.jewelry{
+
+}
+
+.jewelry .nav_list{
+	margin-right: 40px;
+	padding-bottom: 200px;
+	background: url(../images/bg_nav_list.jpg) no-repeat center bottom;
+}
+
 
 
 .header .logo .link .img,
@@ -25,7 +53,12 @@
 .nav_list_txtimg .list .link .title,
 .m_item_frame .itme .link,
 .m_item_frame .itme .link .img,
-.m_itme .list .frame{
+.m_itme .list .frame,
+.m_itme_img .list .box,
+.m_page,
+.m_page a,
+.nav_list .list .link,
+.m_itme_imgtxt .link .float{
 	-webkit-transition:all .4s ease-out;
 	-moz-transition:all .4s ease-out;
 	-ms-transition:all .4s ease-out;
