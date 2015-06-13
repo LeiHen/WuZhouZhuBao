@@ -38,13 +38,24 @@
 
 .jewelry .nav_list{
 	margin-right: 40px;
-	padding-bottom: 200px;
+	padding-bottom: 220px;
 	background: url(../images/bg_nav_list.jpg) no-repeat center bottom;
 }
 
 /* gift */
 .gift{
 	
+}
+
+
+/* 注册 */
+.signin{
+
+}
+
+/* 登陆 */
+.login{
+
 }
 
 

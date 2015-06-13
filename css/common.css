@@ -86,8 +86,8 @@ a:link,a:visited,a:hover,a:active{
 
 /* nav list */
 .nav_list{ border: 1px solid #363434; padding: 10px 30px; }
-.nav_list .list{ font-size: 1.4em; line-height: 2em; }
-.nav_list .list .link{ display: block; color: #959595; padding:10px 0; text-transform: uppercase; }
+.nav_list .list{ font-size: 1.4em; line-height: 2em; border-bottom: 1px solid #959595; }
+.nav_list .list .link{ display: block; color: #959595; padding:10px 0; text-transform: uppercase;  }
 .nav_list .list .link:hover,
 .nav_list .list .hover{ color: #363434; font-weight: bold; padding-left: 10px; }
 
@@ -99,7 +99,7 @@ a:link,a:visited,a:hover,a:active{
 .nav_bottom .nav_list_txtimg{ overflow: hidden; }
 .nav_bottom .nav_list_txtimg .list{ text-align: center; }
 .nav_bottom .nav_list_txtimg .list .link{ padding: 0 10px; display: block; }
-.nav_bottom .nav_list_txtimg .list .title{ font-size: 2.4em; line-height: 2em; color: #959595; text-transform: uppercase; }
+.nav_bottom .nav_list_txtimg .list .title{ font-size:1.6em; line-height: 2.4em; color: #959595; text-transform: uppercase; }
 .nav_bottom .nav_list_txtimg .list .img{ display: block; width: 100%; }
 
 .nav_bottom .nav_list_txtimg .list:first-child{ text-align: left; }
@@ -109,8 +109,8 @@ a:link,a:visited,a:hover,a:active{
 .nav_bottom .nav_list_txtimg .list .link:hover .title{ color: #363434; }
 
 .nav_list_bottom{ overflow: hidden; margin:40px auto; border: 1px solid #959595; border-left:none; border-right:none; }
-.nav_list_bottom .list{ }
-.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.4em; color: #959595; text-align: center; text-transform: uppercase; }
+.nav_list_bottom .list{  }
+.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.4em; color: #959595; text-align: center; text-transform: uppercase;  }
 .nav_list_bottom .list .link:hover{ color: #363434; }
 
 
@@ -203,10 +203,7 @@ a:link,a:visited,a:hover,a:active{
 .m_itme_img .list .box .wrappre{ position:relative; height: 100%; width: 100%; }
 .m_itme_img .list .box .cell { position: absolute; top: 50%; left: 50%; }
 .m_itme_img .list .box .cell .content{ position: relative; top: -50%; left: -50%; /*margin: -50% 0 0 -50%;*/ color: #fff; font-size: 2em; line-height: 1em; text-transform: uppercase; }
-.m_itme_img .list .box .cell .content .title{
-
-}
-
+.m_itme_img .list .box .cell .content .title{ }
 .m_itme_img .list:hover{ }
 .m_itme_img .list:hover .box{ opacity: 1; filter: alpha(opacity=100); }
 
@@ -230,6 +227,41 @@ a:link,a:visited,a:hover,a:active{
 .m_page a{ padding: 0 10px; margin: 0 4px; display: inline-block; border: 1px solid #959595; border-radius: 2px; color: #959595; font-size: 1.4em; line-height:1.8em; text-transform: uppercase; }
 .m_page a:hover,
 .m_page .hover{ color: #363434; border: 1px solid #363434; font-weight: bold; }
+
+
+/* 登陆注册 */
+.m_signin_login{
+	overflow: hidden;
+}
+.m_signin_login .form_box{
+	float: right;
+}
+.m_signin_login .form_box .title_main{
+	font-size: 3em;
+	line-height: 1em;
+	color: #363434;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.m_signin_login .img_box{
+	float: left;
+}
+.m_signin_login .img_box .img{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
 
 
 /*
