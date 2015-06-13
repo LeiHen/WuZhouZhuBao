@@ -51,18 +51,13 @@ a:link,a:visited,a:hover,a:active{
 .header .func .link:hover{ color: #363434; }
 .header .func .shopcar{ margin-right: 20px; }
 
-.header .logo{ margin-bottom: 20px; background: url(../images/logo_bottom.png) no-repeat center bottom; }
-.header .logo .link{ }
-.header .logo .img{ margin: 0 auto; display: block; }
+.header .logo{ margin-bottom: 20px; background: url(../images/logo_bottom.png) no-repeat center bottom; text-align: center; }
+.header .logo .link{ display: inline-block;}
+.header .logo .img{ display: block; max-width: 280px; }
 .header .logo .link:hover .img{ -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); transform:scale(0.9); }
 
 /* main */
-.main{
-	margin-top: 40px;
-	padding-top: 40px;
-	border-top: 2px solid #959595;
-	overflow: hidden;
-}
+.main{ margin-top: 00px; padding-top: 40px; border-top: 2px solid #959595; overflow: hidden; }
 
 /* footer*/
 .footer{ margin: 40px auto; }
@@ -75,7 +70,7 @@ a:link,a:visited,a:hover,a:active{
 /* nav main */
 .nav_main{ padding:0 0 20px 0; height: 42px; }
 .nav_main .list{ height: 42px; position: relative; }
-.nav_main .list .link{ display: block; margin: 0 10px; font-size: 2em; line-height: 2em; color: #959595; text-align: center; text-transform: uppercase; }
+.nav_main .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.857142857142857em; color: #959595; text-align: center; text-transform: uppercase; }
 .nav_main .list:hover > .link,
 .nav_main .hover > .link{ color: #363434; border: 1px solid #363434; }
 
@@ -113,9 +108,9 @@ a:link,a:visited,a:hover,a:active{
 .nav_bottom .nav_list_txtimg .list:last-child .link{ padding: 0 0 0 20px; }
 .nav_bottom .nav_list_txtimg .list .link:hover .title{ color: #363434; }
 
-.nav_list_bottom{ overflow: hidden; margin:40px auto; border: 2px solid #959595; border-left:none; border-right:none; }
+.nav_list_bottom{ overflow: hidden; margin:40px auto; border: 1px solid #959595; border-left:none; border-right:none; }
 .nav_list_bottom .list{ }
-.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 2em; line-height: 2em; color: #959595; text-align: center; text-transform: uppercase; }
+.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.4em; color: #959595; text-align: center; text-transform: uppercase; }
 .nav_list_bottom .list .link:hover{ color: #363434; }
 
 
@@ -207,7 +202,11 @@ a:link,a:visited,a:hover,a:active{
 .m_itme_img .list .box{ opacity: 0; filter: alpha(opacity=0); display: block; position:absolute; background: #000; background: rgba(0,0,0,.8); height: 100%; width: 100%; top: 0; }
 .m_itme_img .list .box .wrappre{ position:relative; height: 100%; width: 100%; }
 .m_itme_img .list .box .cell { position: absolute; top: 50%; left: 50%; }
-.m_itme_img .list .box .cell .content{ position: relative; top: -50%; left: -50%; color: #fff; font-size: 2em; line-height: 1em; text-transform: uppercase; }
+.m_itme_img .list .box .cell .content{ position: relative; top: -50%; left: -50%; /*margin: -50% 0 0 -50%;*/ color: #fff; font-size: 2em; line-height: 1em; text-transform: uppercase; }
+.m_itme_img .list .box .cell .content .title{
+
+}
+
 .m_itme_img .list:hover{ }
 .m_itme_img .list:hover .box{ opacity: 1; filter: alpha(opacity=100); }
 
