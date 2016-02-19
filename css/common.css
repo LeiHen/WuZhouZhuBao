@@ -70,7 +70,7 @@ a:link,a:visited,a:hover,a:active{
 /* nav main */
 .nav_main{ padding:0 0 20px 0; height: 42px; }
 .nav_main .list{ height: 42px; position: relative; }
-.nav_main .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.857142857142857em; color: #959595; text-align: center; text-transform: uppercase; }
+.nav_main .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.857142857142857em; color: #959595; text-align: center; text-transform:capitalize; /*text-transform: uppercase; */}
 .nav_main .list:hover > .link,
 .nav_main .hover > .link{ color: #363434; border: 1px solid #363434; }
 
@@ -110,7 +110,7 @@ a:link,a:visited,a:hover,a:active{
 
 .nav_list_bottom{ overflow: hidden; margin:40px auto; border: 1px solid #959595; border-left:none; border-right:none; }
 .nav_list_bottom .list{  }
-.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.4em; color: #959595; text-align: center; text-transform: uppercase;  }
+.nav_list_bottom .list .link{ display: block; margin: 0 10px; font-size: 1.4em; line-height: 2.4em; color: #959595; text-align: center; /*text-transform: uppercase;*/ text-transform:capitalize; }
 .nav_list_bottom .list .link:hover{ color: #363434; }
 
 
